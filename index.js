@@ -8,7 +8,7 @@ function clickLike1() {
   let totalLikes1 = parseInt(countLikes1.value) + 1
   countLikes1.textContent = totalLikes1.toString()
 }
-function clickLike1() {
+function clickDisLike1() {
   let totalDisLikes1 = parseInt(countDisLikes1.value) + 1
   countDisLikes1.textContent = totalDisLikes1.toString()  
 }

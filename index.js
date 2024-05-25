@@ -12,7 +12,7 @@ function clickDisLike2() {
   let totalLikes2 = parseInt(countLikes2.value) + 1
   countLikes2.textContent = totalLikes2.toString()
 }
-function clickLike1() {
+function clickDisLike1() {
   let totalDisLikes1 = parseInt(countDisLikes1.value) + 1
   countDisLikes1.textContent = totalDiaLikes2.toString()
 }

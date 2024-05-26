@@ -8,14 +8,7 @@ const btnDisLike2 = document.getElementById("btnDisLike2")
 const countDisLikes2 = document.getElementById("countDisLikes2")
 function clickLike1() {
   let totalLikes1 = parseInt(countLikes1.value) + 1
-  btnlike1.classlist.toggle.('btnLike1');
-  if
-    (btnLike1.classList.contains('btnlike1')){
-    btnLike1.textContent = 'btnLike1';
-    countLikes1.textContent = totalLikes1.toString()
-    }
-  else {
-    btnLike1.textContent = 'btnLiked';
+   countLikes1.textContent = totalLikes1.toString()
 }
 function clickLike2() {
   let totalLikes2 = parseInt(countLikes2.value) + 1
